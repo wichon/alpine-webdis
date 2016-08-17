@@ -13,5 +13,3 @@ RUN apk upgrade --update \
     && rm -f /var/cache/apk/*
 
 EXPOSE 7379
-
-ENTRYPOINT ["webdis/webdis"]
